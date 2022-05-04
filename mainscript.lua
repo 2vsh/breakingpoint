@@ -8,7 +8,7 @@ if game.PlaceId == 648362523 then
     game.StarterGui:SetCore(
         "SendNotification",
         {
-            Title = "Credis",
+            Title = "Breaking Point AutoFarm",
             Text = "qa#0001, aka 2vsh."
         }
     )
