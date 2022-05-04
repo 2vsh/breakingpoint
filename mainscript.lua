@@ -10,7 +10,7 @@ if game.PlaceId == 648362523 then
     game.StarterGui:SetCore(
         "SendNotification",
         {
-            Title = "Breaking Point AutoFarm",
+            Title = "Breaking Point AutoFarm Credits",
             Text = "qa#0001, aka 2vsh on Roblox."
         }
     )
