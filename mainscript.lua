@@ -11,7 +11,7 @@ if game.PlaceId == 648362523 then
         "SendNotification",
         {
             Title = "Breaking Point AutoFarm Credits",
-            Text = "qa#0001, aka 2vsh on Roblox."
+            Text = "Updated by qa#0001, aka 2vsh on Roblox."
         }
     )
     Clone = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:Clone()
