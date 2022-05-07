@@ -1,5 +1,3 @@
---NOTE: IF YOU PAID FOR THIS SCRIPT, YOU GOT SCAMMED. THIS SCRIPT SHOULD BE 100% FREE.
-repeat wait() until game:IsLoaded() wait()
 game:GetService("Players").LocalPlayer.Idled:connect(function()
 game:GetService("VirtualUser"):ClickButton2(Vector2.new())
 end)
@@ -53,7 +51,7 @@ else
 end
 
 
-if getgenv().ServerHop then
+if getgenv().ServerHop == true then
 wait (1500)
 game:GetService("TeleportService"):Teleport(648362523, LocalPlayer)
 end
