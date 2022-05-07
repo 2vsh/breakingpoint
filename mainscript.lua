@@ -1,5 +1,4 @@
 --NOTE: IF YOU PAID FOR THIS SCRIPT, YOU GOT SCAMMED. THIS SCRIPT SHOULD BE 100% FREE.
-
 repeat wait() until game:IsLoaded() wait()
 game:GetService("Players").LocalPlayer.Idled:connect(function()
 game:GetService("VirtualUser"):ClickButton2(Vector2.new())
@@ -49,3 +48,6 @@ if game.PlaceId == 648362523 then
 else
     game:GetService("TeleportService"):Teleport(648362523, LocalPlayer)
 end
+
+wait (1500)
+game:GetService("TeleportService"):Teleport(648362523, LocalPlayer)
