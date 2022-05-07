@@ -13,6 +13,9 @@ if game.PlaceId == 648362523 then
             Text = "Updated by qa#0001, aka 2vsh on Roblox."
         }
     )
+    
+    
+    
     Clone = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:Clone()
     game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:Destroy()
     Clone.Parent = game:GetService("Players").LocalPlayer.Character
@@ -49,5 +52,8 @@ else
     game:GetService("TeleportService"):Teleport(648362523, LocalPlayer)
 end
 
+
+if getgenv().ServerHop then
 wait (1500)
 game:GetService("TeleportService"):Teleport(648362523, LocalPlayer)
+end
